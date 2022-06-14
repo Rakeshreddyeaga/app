@@ -83,9 +83,10 @@ export class Department extends Component{
                 </Table>
 
                 <ButtonToolbar>
-                    <Button variant='primary'
+                    <Button variant='primary' style={{backgroundColor: "red"}}
                     onClick={()=>this.setState({addModalShow:true})}>
-                    Add Department</Button>
+                    Add Depeartment
+                    </Button>
 
                     <AddDepModal show={this.state.addModalShow}
                     onHide={addModalClose}/>

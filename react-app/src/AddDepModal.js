@@ -55,7 +55,7 @@ centered
                     </Form.Group>
 
                     <Form.Group>
-                        <Button variant="primary" type="submit">
+                        <Button variant="primary"  style={{backgroundColor: "red"}} type="submit"> 
                             Add Department
                         </Button>
                     </Form.Group>
